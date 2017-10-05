@@ -1,0 +1,31 @@
+body{
+	background: url("Background-Image-64E.png");
+	font-size: 14px;
+	font-family: "verdana", sans-serif; 
+	margin: 0px;
+	padding: 0px;
+	color:#333;
+}
+.container{
+	width: 730px;
+	margin: 0 auto;
+
+}
+#header{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+#header:after{
+	display: table;
+	content: "";
+}
+#header:after{
+	clear:both;
+}
+#header img{
+	float:left;
+}
+#header h1{
+	color: #fff;
+	text-shadow: 1px 1px 0 #333, 2px 2px 0 #666;
+}
